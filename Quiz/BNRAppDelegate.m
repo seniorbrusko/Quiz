@@ -16,9 +16,8 @@
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   // Override point for customization after application launch.
   
-  BNRQuizViewController *quizVC = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+  BNRQuizViewController *quizVC = [[BNRQuizViewController alloc]init];
   self.window.rootViewController = quizVC;
-  
   
   self.window.backgroundColor = [UIColor whiteColor];
   [self.window makeKeyAndVisible];
