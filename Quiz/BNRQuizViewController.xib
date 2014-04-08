@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRQuizViewController">
             <connections>
+                <outlet property="answerLabel" destination="de7-f8-CdX" id="Ky3-bP-Gpt"/>
+                <outlet property="questionLabel" destination="K9f-bL-Ipp" id="O6q-1a-RaI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

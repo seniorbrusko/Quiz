@@ -10,29 +10,21 @@
 
 @interface BNRQuizViewController ()
 
+@property (nonatomic, weak) IBOutlet UILabel *questionLabel;
+@property (nonatomic, weak) IBOutlet UILabel *answerLabel;
+
 @end
 
 @implementation BNRQuizViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (IBAction)showQuestion:(id)sender
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+  
 }
 
-- (void)viewDidLoad
+- (IBAction)showAnswer:(id)sender
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  
 }
 
 @end
